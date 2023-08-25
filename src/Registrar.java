@@ -94,7 +94,7 @@ public class Registrar {
 
                     if (rowsDeleted > 0) {
                         JOptionPane.showMessageDialog(rootPanel, "Registro eliminado exitosamente.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
-                        cargarUsuariosDesdeBaseDeDatos(); // Refresh the displayed records after deletion
+                        cargarUsuariosDesdeBaseDeDatos();
                     } else {
                         JOptionPane.showMessageDialog(rootPanel, "No se encontró ningún registro con el código ingresado.", "Error", JOptionPane.ERROR_MESSAGE);
                     }
